@@ -263,11 +263,7 @@ input[type=submit]:hover {
     
 }
 
-.footer {    
-    bottom: 0;
-    position: fixed;
-    width: 100%;
-}
+
 
 
 
@@ -346,3 +342,28 @@ a.copyright{
 
 
 
+.footer {    
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+}
+
+@media screen and (max-width: 980px) {
+    header section {
+        width: 720px;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    header section {
+        width: 600px;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    header section {
+        width: 100%;
+    }
+}
