@@ -349,7 +349,7 @@ a.copyright{
     width: 100%;
 }
 
-@media screen and (max-width: 980px) {
+@media screen and (max-width: 980px) {  /*here are our media queries*/
     .header__container {
         display: block;
         width: 720px;
