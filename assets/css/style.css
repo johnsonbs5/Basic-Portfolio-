@@ -284,6 +284,7 @@ body {
     border-bottom: 2px solid #cccccc;
 }
 
+
 /*---here is our 960px width---*/
 
 .header__container {
@@ -349,21 +350,24 @@ a.copyright{
 }
 
 @media screen and (max-width: 980px) {
-    header section {
+    .header__container {
+        display: block;
         width: 720px;
         margin: 0 auto;
     }
 }
 
 @media screen and (max-width: 768px) {
-    header section {
+    .header__container {
+        display: block;
         width: 600px;
         margin: 0 auto;
     }
 }
 
 @media screen and (max-width: 640px) {
-    header section {
+    .header__container {
+        display: block;
         width: 100%;
     }
 }
