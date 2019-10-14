@@ -1,9 +1,8 @@
-
 /*------------header information for homework specs------------*/
 
 
 .fullHeader {
-    height: 100px;
+    height: 100%;
     margin: 0 auto;
     text-align: center;
     width: 100%;
@@ -21,11 +20,14 @@
 .block__name {
     float: left;
     color: white;
-    background-color: #4aaaa5;
-    font-family: 'Georgia', Times, Times New Roman, serif;
-    height: 92px;
-    line-height: 92px;
-    padding: 0 30px
+    background-color: black;
+    font-family: 'Monoton', cursive;
+    height: 80px;
+    line-height: 90px;
+    padding: 1px 30px;
+    text-shadow: 1px 1px 2px white;
+    opacity: .85;
+
 }
 
 .block__links {
@@ -33,7 +35,7 @@
     line-height: 92px;
     color: #999;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    font-size: 14px;
+    font-size: 22px;
     display: flex;
     justify-content: space-between;
     width: 250px;
@@ -70,19 +72,22 @@ a:visited {
     color: #888 !important;
 }
 
-a { 
+a {
     text-decoration: none;
 }
 
 /*------------index / body------------*/
 body {
     background-color: #eee;
-    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif; /*-----Font required for homework assignment specs!-----*/
+    font-family: 'Playfair Display', serif;
 
 }
 
 .patterned-background {
-    background-image: url(../images/Galaxy.jpeg); /*---Here is where we changed our background image ti reflect "personality"---*/
+    background-color: #ffffff;
+background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25'%3E%3Cdefs%3E%3ClinearGradient id='a' gradientUnits='userSpaceOnUse' x1='0' x2='0' y1='0' y2='100%25' gradientTransform='rotate(240)'%3E%3Cstop offset='0' stop-color='%23ffffff'/%3E%3Cstop offset='1' stop-color='%23081f1d'/%3E%3C/linearGradient%3E%3Cpattern patternUnits='userSpaceOnUse' id='b' width='540' height='450' x='0' y='0' viewBox='0 0 1080 900'%3E%3Cg fill-opacity='0.1'%3E%3Cpolygon fill='%23444' points='90 150 0 300 180 300'/%3E%3Cpolygon points='90 150 180 0 0 0'/%3E%3Cpolygon fill='%23AAA' points='270 150 360 0 180 0'/%3E%3Cpolygon fill='%23DDD' points='450 150 360 300 540 300'/%3E%3Cpolygon fill='%23999' points='450 150 540 0 360 0'/%3E%3Cpolygon points='630 150 540 300 720 300'/%3E%3Cpolygon fill='%23DDD' points='630 150 720 0 540 0'/%3E%3Cpolygon fill='%23444' points='810 150 720 300 900 300'/%3E%3Cpolygon fill='%23FFF' points='810 150 900 0 720 0'/%3E%3Cpolygon fill='%23DDD' points='990 150 900 300 1080 300'/%3E%3Cpolygon fill='%23444' points='990 150 1080 0 900 0'/%3E%3Cpolygon fill='%23DDD' points='90 450 0 600 180 600'/%3E%3Cpolygon points='90 450 180 300 0 300'/%3E%3Cpolygon fill='%23666' points='270 450 180 600 360 600'/%3E%3Cpolygon fill='%23AAA' points='270 450 360 300 180 300'/%3E%3Cpolygon fill='%23DDD' points='450 450 360 600 540 600'/%3E%3Cpolygon fill='%23999' points='450 450 540 300 360 300'/%3E%3Cpolygon fill='%23999' points='630 450 540 600 720 600'/%3E%3Cpolygon fill='%23FFF' points='630 450 720 300 540 300'/%3E%3Cpolygon points='810 450 720 600 900 600'/%3E%3Cpolygon fill='%23DDD' points='810 450 900 300 720 300'/%3E%3Cpolygon fill='%23AAA' points='990 450 900 600 1080 600'/%3E%3Cpolygon fill='%23444' points='990 450 1080 300 900 300'/%3E%3Cpolygon fill='%23222' points='90 750 0 900 180 900'/%3E%3Cpolygon points='270 750 180 900 360 900'/%3E%3Cpolygon fill='%23DDD' points='270 750 360 600 180 600'/%3E%3Cpolygon points='450 750 540 600 360 600'/%3E%3Cpolygon points='630 750 540 900 720 900'/%3E%3Cpolygon fill='%23444' points='630 750 720 600 540 600'/%3E%3Cpolygon fill='%23AAA' points='810 750 720 900 900 900'/%3E%3Cpolygon fill='%23666' points='810 750 900 600 720 600'/%3E%3Cpolygon fill='%23999' points='990 750 900 900 1080 900'/%3E%3Cpolygon fill='%23999' points='180 0 90 150 270 150'/%3E%3Cpolygon fill='%23444' points='360 0 270 150 450 150'/%3E%3Cpolygon fill='%23FFF' points='540 0 450 150 630 150'/%3E%3Cpolygon points='900 0 810 150 990 150'/%3E%3Cpolygon fill='%23222' points='0 300 -90 450 90 450'/%3E%3Cpolygon fill='%23FFF' points='0 300 90 150 -90 150'/%3E%3Cpolygon fill='%23FFF' points='180 300 90 450 270 450'/%3E%3Cpolygon fill='%23666' points='180 300 270 150 90 150'/%3E%3Cpolygon fill='%23222' points='360 300 270 450 450 450'/%3E%3Cpolygon fill='%23FFF' points='360 300 450 150 270 150'/%3E%3Cpolygon fill='%23444' points='540 300 450 450 630 450'/%3E%3Cpolygon fill='%23222' points='540 300 630 150 450 150'/%3E%3Cpolygon fill='%23AAA' points='720 300 630 450 810 450'/%3E%3Cpolygon fill='%23666' points='720 300 810 150 630 150'/%3E%3Cpolygon fill='%23FFF' points='900 300 810 450 990 450'/%3E%3Cpolygon fill='%23999' points='900 300 990 150 810 150'/%3E%3Cpolygon points='0 600 -90 750 90 750'/%3E%3Cpolygon fill='%23666' points='0 600 90 450 -90 450'/%3E%3Cpolygon fill='%23AAA' points='180 600 90 750 270 750'/%3E%3Cpolygon fill='%23444' points='180 600 270 450 90 450'/%3E%3Cpolygon fill='%23444' points='360 600 270 750 450 750'/%3E%3Cpolygon fill='%23999' points='360 600 450 450 270 450'/%3E%3Cpolygon fill='%23666' points='540 600 630 450 450 450'/%3E%3Cpolygon fill='%23222' points='720 600 630 750 810 750'/%3E%3Cpolygon fill='%23FFF' points='900 600 810 750 990 750'/%3E%3Cpolygon fill='%23222' points='900 600 990 450 810 450'/%3E%3Cpolygon fill='%23DDD' points='0 900 90 750 -90 750'/%3E%3Cpolygon fill='%23444' points='180 900 270 750 90 750'/%3E%3Cpolygon fill='%23FFF' points='360 900 450 750 270 750'/%3E%3Cpolygon fill='%23AAA' points='540 900 630 750 450 750'/%3E%3Cpolygon fill='%23FFF' points='720 900 810 750 630 750'/%3E%3Cpolygon fill='%23222' points='900 900 990 750 810 750'/%3E%3Cpolygon fill='%23222' points='1080 300 990 450 1170 450'/%3E%3Cpolygon fill='%23FFF' points='1080 300 1170 150 990 150'/%3E%3Cpolygon points='1080 600 990 750 1170 750'/%3E%3Cpolygon fill='%23666' points='1080 600 1170 450 990 450'/%3E%3Cpolygon fill='%23DDD' points='1080 900 1170 750 990 750'/%3E%3C/g%3E%3C/pattern%3E%3C/defs%3E%3Crect x='0' y='0' fill='url(%23a)' width='100%25' height='100%25'/%3E%3Crect x='0' y='0' fill='url(%23b)' width='100%25' height='100%25'/%3E%3C/svg%3E");
+background-attachment: fixed;
+background-size: cover;
 }
 
 
@@ -98,9 +103,12 @@ body {
 
 
 h1 {
-    font-size: 28px;
-    letter-spacing: 1px;
+    font-size: 32px;
+    letter-spacing: .5px;
     font-weight: bold;
+    font-family: 'Monoton', cursive;
+    text-shadow: 1px 1px 2px, 25px black;
+
 }
 
 
@@ -115,25 +123,28 @@ h1 {
 
 .about__image {
     float: left;
-    height: 150px;
+    height: 300px;
     padding: 0 26px 0 0;
+    
 }
+
 /*---Homework specs seen below for font color---*/
 
 .about__text {
-    color: #777777; 
-    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: white;
+    font-family: 'Playfair Display', serif;
     line-height: 2;
+    margin: auto;
 }
 
-.mainContent__wrapper{
+.mainContent__wrapper {
     margin: 30px auto;
     width: calc(100% - 60px);
 }
 
 
 a.inline__textLink {
-    color: #5E7F7E !important;
+    color: black !important;
 }
 
 a.inline__textLink:hover {
@@ -141,13 +152,9 @@ a.inline__textLink:hover {
 }
 
 a {
-    color: #666;
+    color: white;
 }
 
-.mainCard__header {
-    margin: 90px;
-
-}
 
 /*------------Here is info for my Portfolio file------------*/
 
@@ -161,17 +168,19 @@ a {
     background-position: top center;
     background-repeat: no-repeat;
     text-align: center;
-    display: inline-block;  
+    display: inline-block;
+    color: white;
 }
 
 /*---Note to self 9-11-19 / make sure to update images and names on portfolio---*/
 
 .portfolio__preview.coding {
     background-image: url(../images/Coding.jpg);
+
 }
 
 .portfolio__preview.gaming {
-    background-image: url(../images/Gaming.jpg); 
+    background-image: url(../images/Gaming.jpg);
 }
 
 .portfolio__preview.business {
@@ -182,7 +191,7 @@ a {
     background-image: url(../images/Web.jpeg);
 }
 
-.portfolio__preview.seo{
+.portfolio__preview.seo {
     background-image: url(../images/SEO.jpg);
 }
 
@@ -193,21 +202,23 @@ a {
     height: 58px;
     line-height: 58px;
     margin-top: 138px;
-    background-color: #4aaaa5;
+    background-color: #9d9ca1;
+    opacity: .5;
     display: block;
     font-size: 17px;
     color: white;
-    transition-property: background-color;
-    transition-duration: 1s; /*---Might need to change this after testing---*/
+    transition-duration: .5s;
+    /*---Might need to change this after testing---*/
 }
 
 a.portfolio__link:visited {
-    color: white;
+    color: purple;
 }
 
 a.portfolio__link:hover {
     color: white;
     background-color: #3d8e8a;
+    font-size: 12px;
 }
 
 /*------------Contact page css information------------*/
@@ -217,8 +228,9 @@ input {
     margin-bottom: 15px;
     border: 1px solid #dedede;
     padding: 8px;
-    color: #777;
-    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color:gray;
+    font-family: 'Playfair Display', serif;
+
 }
 
 textarea {
@@ -227,12 +239,13 @@ textarea {
     margin-bottom: 15px;
     border: 1px solid #dedede;
     color: #777;
-    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-family: 'Playfair Display', serif;
+
 }
 
 .contact__title {
-    color: #777;
-    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color:gray;
+    font-family: 'Playfair Display', serif;
     margin-bottom: 8px;
 }
 
@@ -241,7 +254,7 @@ input[type=submit] {
     width: 88px;
     background-color: #4aaaa5;
     color: white;
-    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-family: 'Playfair Display', serif;
 }
 
 input[type=submit]:hover {
@@ -251,19 +264,24 @@ input[type=submit]:hover {
 /*------------footer------------*/
 
 .fullFooter {
-    background-color: #666666;
+    background-color: black;
     height: 58px;
-    border-top: 10px solid #4aaaa5;
+    border-top: 8px solid gray;
     text-align: center;
     color: white !important;
     line-height: 60px;
     margin-top: -58px;
-    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    font-size: 12px;
-    
+    font-family: 'Playfair Display', serif;
+    font-size: 18px;
+    opacity: .85;
+
 }
 
-
+.footer {
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+}
 
 
 
@@ -276,14 +294,13 @@ body {
     margin: 0;
 }
 
-.header__background{
+.header__background {
     width: 100%;
     height: 92px;
     display: block;
-    background-color: #ffffff;
-    border-bottom: 2px solid #cccccc;
+    background-color: black;
+    border-bottom: 4px solid gray;
 }
-
 
 /*---here is our 960px width---*/
 
@@ -293,81 +310,67 @@ body {
     margin: auto;
 }
 
-.col-block{
+.col-block {
     width: 40%;
     display: block;
     float: left;
 }
 
-.col-links{
+.col-links {
     width: 60%;
     float: left;
     display: block;
     text-align: right;
+    background-origin: padding-box;
 }
 
 .links__block {
     line-height: 92px;
-    color: #999;
-    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    font-size: 14px;
+    color: gray;
+    font-family: 'Playfair Display', serif;
+    font-size: 22px;
     display: inline-block;
 }
 
-.mainContent__background{
-    width: 100%;
+.mainContent__background {
+    width: auto;
     height: auto;
+    margin-bottom: 20px;
 }
 
 .mainContent__container {
-    background-color: white;
-    max-width: 960px;
-    width: 85%;
+    background-color: gray;
+    max-width: 1080px;
+    width: 90%;
     border: 1px solid #ddd;
-    margin: 38px auto 92px;
+    margin-bottom: 100px;
+    padding: 30px;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+
 }
 
 
 .mainCard__header {
-    height: 100px;
-    line-height: 100px;
-    font-family: 'Georgia', Times, Times New Roman, serif;
-    color: #4aaaa5;
-    width: calc(100% - 60px);
+    height: 20px;
+    line-height: 10px;
+    font-family: 'Playfair Display', serif;
+    font-size: 22px;
+    color: white;
     margin: auto;
+    text-align: center;
+    text-shadow: 1px 1px 2px white, 0 0 25px turquoise, 0 0 5px;
+    margin-bottom: 10px;
+
 }
 
-a.copyright{
+a.copyright {
     color: white;
 }
 
+.spotify {
+    text-align: center;
+    
 
-
-.footer {    
-    bottom: 0;
-    position: fixed;
-    width: 100%;
-}
-
-@media screen and (max-width: 980px) {  /*here are our media queries*/
-    .header__container {
-        display: block;
-        width: 720px;
-        margin: 0 auto;
-    }
-}
-
-@media screen and (max-width: 768px) {
-    .header__container {
-        display: block;
-        width: 600px;
-        margin: 0 auto;
-    }
-}
-
-@media screen and (max-width: 640px) {
-    .header__container {
-        display: block;
-        width: 100%;
-    }
 }
